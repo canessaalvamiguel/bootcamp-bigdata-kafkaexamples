@@ -29,7 +29,7 @@ public final class SimpleProducer {
   }
 
   public static void main(final String[] args) {
-    new SimpleProducer("localhost:29092").produce(2);
+    new SimpleProducer("localhost:9092").produce(2);
   }
 
   @SuppressWarnings("InfiniteLoopStatement")

@@ -47,7 +47,7 @@ public final class SimpleProcessor {
   }
 
   public static void main(final String[] args) {
-    new SimpleProcessor("localhost:29092").process();
+    new SimpleProcessor("localhost:9092").process();
   }
 
   @SuppressWarnings("InfiniteLoopStatement")
